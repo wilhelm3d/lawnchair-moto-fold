@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <!-- Background Circle -->
+  <circle cx="96" cy="96" r="92" fill="#4CAF50" opacity="0.1"/>
+  
+  <!-- Folding Chair - Open Position (representing the fold/flexible nature) -->
+  
+  <!-- Left Leg -->
+  <line x1="60" y1="120" x2="40" y2="160" stroke="#1976D2" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Right Leg -->
+  <line x1="132" y1="120" x2="152" y2="160" x2="160" y2="160" stroke="#1976D2" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Left Seat Support -->
+  <path d="M 65 115 Q 55 95 50 75" stroke="#4CAF50" stroke-width="5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Right Seat Support -->
+  <path d="M 127 115 Q 137 95 142 75" stroke="#4CAF50" stroke-width="5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Seat (curved to show folding motion) -->
+  <ellipse cx="96" cy="100" rx="50" ry="20" fill="#4CAF50" opacity="0.8"/>
+  
+  <!-- Chair Back (left panel) -->
+  <rect x="50" y="45" width="35" height="65" rx="4" fill="#1976D2" opacity="0.7"/>
+  
+  <!-- Chair Back (right panel) -->
+  <rect x="107" y="45" width="35" height="65" rx="4" fill="#1976D2" opacity="0.7"/>
+  
+  <!-- Fold Line in Middle (representing the fold) -->
+  <line x1="96" y1="45" x2="96" y2="115" stroke="#FF6F00" stroke-width="3" stroke-dasharray="5,3"/>
+  
+  <!-- Decorative Elements -->
+  <!-- Left fold angle indicator -->
+  <path d="M 70 70 L 75 65 L 78 70" stroke="#FF6F00" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Right fold angle indicator -->
+  <path d="M 122 70 L 117 65 L 114 70" stroke="#FF6F00" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Center detail (showing flexibility) -->
+  <circle cx="96" cy="80" r="4" fill="#FF6F00"/>
+  
+  <!-- Accent circle around icon -->
+  <circle cx="96" cy="96" r="88" fill="none" stroke="#4CAF50" stroke-width="2" opacity="0.5"/>
+</svg>
