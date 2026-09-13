@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Lawnchair Moto Fold</string>
-    <string name="launcher_settings">Launcher Settings</string>
+    <string name="app_name">Foldchair</string>
+    <string name="launcher_settings">Foldchair Settings</string>
+    <string name="app_drawer">App Drawer</string>
     
     <!-- Screen Names -->
     <string name="cover_screen">Cover Screen</string>
@@ -14,12 +15,25 @@
     <string name="icon_settings">Icon Settings</string>
     <string name="display_settings">Display Settings</string>
     <string name="theme_settings">Theme</string>
+    <string name="drawer_settings">App Drawer Settings</string>
     
     <!-- Grid Preferences -->
     <string name="grid_columns_title">Grid Columns</string>
     <string name="grid_columns_summary">Number of app columns in home screen</string>
     <string name="grid_rows_title">Grid Rows</string>
     <string name="grid_rows_summary">Number of app rows in home screen</string>
+    
+    <!-- App Drawer Preferences -->
+    <string name="drawer_columns_title">Drawer Columns</string>
+    <string name="drawer_columns_summary">Number of columns in app drawer</string>
+    <string name="drawer_rows_title">Drawer Rows</string>
+    <string name="drawer_rows_summary">Number of rows in app drawer</string>
+    <string name="drawer_icon_size_title">Drawer Icon Size</string>
+    <string name="drawer_icon_size_summary">Icon size in app drawer</string>
+    <string name="drawer_animation_title">Drawer Animation</string>
+    <string name="drawer_animation_summary">Smooth open/close animation</string>
+    <string name="drawer_search_title">Show Search</string>
+    <string name="drawer_search_summary">Display search bar in app drawer</string>
     
     <!-- Icon Size -->
     <string name="icon_size_title">Icon Size</string>
@@ -52,4 +66,5 @@
     <string name="detecting_display">Detecting active display...</string>
     <string name="outer_screen_active">Cover screen is active</string>
     <string name="inner_screen_active">Main screen is active</string>
+    <string name="search_apps">Search apps</string>
 </resources>
