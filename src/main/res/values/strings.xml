@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lawnchair Moto Fold</string>
+    <string name="launcher_settings">Launcher Settings</string>
+    
+    <!-- Screen Names -->
+    <string name="cover_screen">Cover Screen</string>
+    <string name="main_screen">Main Screen</string>
+    <string name="outer_display">Outer Display (Folded)</string>
+    <string name="inner_display">Inner Display (Open)</string>
+    
+    <!-- Settings Titles -->
+    <string name="grid_settings">Grid Layout</string>
+    <string name="icon_settings">Icon Settings</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="theme_settings">Theme</string>
+    
+    <!-- Grid Preferences -->
+    <string name="grid_columns_title">Grid Columns</string>
+    <string name="grid_columns_summary">Number of app columns in home screen</string>
+    <string name="grid_rows_title">Grid Rows</string>
+    <string name="grid_rows_summary">Number of app rows in home screen</string>
+    
+    <!-- Icon Size -->
+    <string name="icon_size_title">Icon Size</string>
+    <string name="icon_size_summary">Adjust app icon size</string>
+    
+    <!-- Dock Settings -->
+    <string name="show_dock_title">Show Dock</string>
+    <string name="show_dock_summary">Display application dock at bottom</string>
+    
+    <!-- Theme -->
+    <string name="theme_title">Theme</string>
+    <string name="theme_summary">Choose launcher theme</string>
+    <string name="theme_default">Default</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_material_you">Material You</string>
+    
+    <!-- Synchronization -->
+    <string name="sync_settings">Synchronization</string>
+    <string name="copy_to_cover">Copy Inner → Outer</string>
+    <string name="copy_to_cover_summary">Apply main screen settings to cover screen</string>
+    <string name="copy_to_main">Copy Outer → Inner</string>
+    <string name="copy_to_main_summary">Apply cover screen settings to main screen</string>
+    <string name="reset_to_defaults">Reset to Defaults</string>
+    <string name="reset_to_defaults_summary">Restore default settings for both displays</string>
+    
+    <!-- Status Messages -->
+    <string name="settings_copied">Settings copied successfully</string>
+    <string name="settings_reset">Settings reset to defaults</string>
+    <string name="detecting_display">Detecting active display...</string>
+    <string name="outer_screen_active">Cover screen is active</string>
+    <string name="inner_screen_active">Main screen is active</string>
+</resources>
