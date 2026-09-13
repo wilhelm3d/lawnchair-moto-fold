@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Outer/Cover Screen Settings -->
+    <PreferenceCategory
+        android:title="Cover Screen Settings"
+        android:summary="Configure the outer display (when device is folded)">
+
+        <ListPreference
+            android:key="outer_grid_columns"
+            android:title="Grid Columns (Cover)"
+            android:entries="@array/grid_columns_entries"
+            android:entryValues="@array/grid_columns_values"
+            android:defaultValue="4"
+            android:summary="%s" />
+
+        <ListPreference
+            android:key="outer_grid_rows"
+            android:title="Grid Rows (Cover)"
+            android:entries="@array/grid_rows_entries"
+            android:entryValues="@array/grid_rows_values"
+            android:defaultValue="5"
+            android:summary="%s" />
+
+        <SeekBarPreference
+            android:key="outer_icon_size"
+            android:title="Icon Size (Cover)"
+            app:min="50"
+            app:max="150"
+            android:defaultValue="100" />
+
+        <ListPreference
+            android:key="outer_drawer_columns"
+            android:title="Drawer Columns (Cover)"
+            android:entries="@array/grid_columns_entries"
+            android:entryValues="@array/grid_columns_values"
+            android:defaultValue="3"
+            android:summary="%s" />
+
+        <ListPreference
+            android:key="outer_drawer_rows"
+            android:title="Drawer Rows (Cover)"
+            android:entries="@array/grid_rows_entries"
+            android:entryValues="@array/grid_rows_values"
+            android:defaultValue="4"
+            android:summary="%s" />
+
+        <SeekBarPreference
+            android:key="outer_drawer_icon_size"
+            android:title="Drawer Icon Size (Cover)"
+            app:min="50"
+            app:max="150"
+            android:defaultValue="90" />
+
+        <SwitchPreference
+            android:key="outer_drawer_animation"
+            android:title="Drawer Animation (Cover)"
+            android:summary="Smooth open/close animation"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="outer_drawer_search"
+            android:title="Show Search (Cover)"
+            android:summary="Display search bar in drawer"
+            android:defaultValue="false" />
+
+        <SwitchPreference
+            android:key="outer_show_dock"
+            android:title="Show Dock (Cover)"
+            android:summary="Display app dock on cover screen"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="outer_theme"
+            android:title="Theme (Cover)"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="default"
+            android:summary="%s" />
+
+    </PreferenceCategory>
+
+    <!-- Inner/Main Screen Settings -->
+    <PreferenceCategory
+        android:title="Main Screen Settings"
+        android:summary="Configure the inner display (when device is open)">
+
+        <ListPreference
+            android:key="inner_grid_columns"
+            android:title="Grid Columns (Main)"
+            android:entries="@array/grid_columns_entries"
+            android:entryValues="@array/grid_columns_values"
+            android:defaultValue="5"
+            android:summary="%s" />
+
+        <ListPreference
+            android:key="inner_grid_rows"
+            android:title="Grid Rows (Main)"
+            android:entries="@array/grid_rows_entries"
+            android:entryValues="@array/grid_rows_values"
+            android:defaultValue="6"
+            android:summary="%s" />
+
+        <SeekBarPreference
+            android:key="inner_icon_size"
+            android:title="Icon Size (Main)"
+            app:min="50"
+            app:max="150"
+            android:defaultValue="100" />
+
+        <ListPreference
+            android:key="inner_drawer_columns"
+            android:title="Drawer Columns (Main)"
+            android:entries="@array/grid_columns_entries"
+            android:entryValues="@array/grid_columns_values"
+            android:defaultValue="5"
+            android:summary="%s" />
+
+        <ListPreference
+            android:key="inner_drawer_rows"
+            android:title="Drawer Rows (Main)"
+            android:entries="@array/grid_rows_entries"
+            android:entryValues="@array/grid_rows_values"
+            android:defaultValue="5"
+            android:summary="%s" />
+
+        <SeekBarPreference
+            android:key="inner_drawer_icon_size"
+            android:title="Drawer Icon Size (Main)"
+            app:min="50"
+            app:max="150"
+            android:defaultValue="100" />
+
+        <SwitchPreference
+            android:key="inner_drawer_animation"
+            android:title="Drawer Animation (Main)"
+            android:summary="Smooth open/close animation"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="inner_drawer_search"
+            android:title="Show Search (Main)"
+            android:summary="Display search bar in drawer"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="inner_show_dock"
+            android:title="Show Dock (Main)"
+            android:summary="Display app dock on main screen"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="inner_theme"
+            android:title="Theme (Main)"
+            android:entries="@array/theme_entries"
+            android:entryValues="@array/theme_values"
+            android:defaultValue="default"
+            android:summary="%s" />
+
+    </PreferenceCategory>
+
+    <!-- Synchronization Options -->
+    <PreferenceCategory
+        android:title="Synchronization"
+        android:summary="Copy settings between displays">
+
+        <Preference
+            android:key="copy_inner_to_outer"
+            android:title="Copy Main → Cover"
+            android:summary="Apply main screen settings to cover screen" />
+
+        <Preference
+            android:key="copy_outer_to_inner"
+            android:title="Copy Cover → Main"
+            android:summary="Apply cover screen settings to main screen" />
+
+        <Preference
+            android:key="reset_to_defaults"
+            android:title="Reset to Defaults"
+            android:summary="Restore default settings for both displays" />
+
+    </PreferenceCategory>
+
+    <!-- Display Information -->
+    <PreferenceCategory android:title="Display Information">
+
+        <Preference
+            android:key="foldable_info"
+            android:title="Foldable Support"
+            android:summary="This device supports foldable configuration" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
